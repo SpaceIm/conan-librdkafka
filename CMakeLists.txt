@@ -3,6 +3,5 @@ project(cmake_wrapper)
 
 include(conanbuildinfo.cmake)
 conan_basic_setup(TARGETS)
-conan_global_flags()
 
 add_subdirectory(source_subfolder)
